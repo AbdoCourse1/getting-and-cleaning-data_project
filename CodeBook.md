@@ -27,7 +27,7 @@ contains recorded features test data
 ```
 y_test <- test/y_test.txt : 2947 rows, 1 columns
 ```
-contains test data of activities’code labels
+contains test data of activitiesâ€™code labels
 ```
 subject_train <- test/subject_train.txt : 7352 rows, 1 column
 ```
@@ -39,12 +39,12 @@ contains recorded features train data
 ```
 y_train <- test/y_train.txt : 7352 rows, 1 columns
 ```
-contains train data of activities’code labels
+contains train data of activitiesâ€™code labels
 
 
-**The run_analysis.R script performs the 5 steps required in the course project’s definition.**
+**The run_analysis.R script performs the 5 steps required in the course projectâ€™s definition.**
 
-1- Merges the training and the test sets to create one data set.
+**1- Merges the training and the test sets to create one data set.**
 
 X (10299 rows, 561 columns) is created by merging x_train and x_test using rbind() function.
 
@@ -68,17 +68,17 @@ Entire numbers in code column of the TidyData replaced with corresponding activi
 
 code column in TidyData renamed into activities
 
--All Acc in column’s name replaced by Accelerometer
+-All Acc in columnâ€™s name replaced by Accelerometer
 
--All Gyro in column’s name replaced by Gyroscope
+-All Gyro in columnâ€™s name replaced by Gyroscope
 
--All BodyBody in column’s name replaced by Body
+-All BodyBody in columnâ€™s name replaced by Body
 
--All Mag in column’s name replaced by Magnitude
+-All Mag in columnâ€™s name replaced by Magnitude
 
--All start with character f in column’s name replaced by Frequency
+-All start with character f in columnâ€™s name replaced by Frequency
 
--All start with character t in column’s name replaced by Time
+-All start with character t in columnâ€™s name replaced by Time
 
 
 **5- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.**
